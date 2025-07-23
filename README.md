@@ -1,3 +1,43 @@
+# 🧠 Finwise AI
+
+**Finwise AI** is a modern AI-powered personal finance analytics platform that helps users manage their daily spending, track income and expenses, analyze financial behavior, and monitor ETF/stock portfolios – all through an intuitive web interface and smart chatbot agent.
+
+---
+
+## 🔍 Overview
+
+This project aims to make personal finance smarter and more effortless with the power of AI.
+
+### ✨ Key Features:
+- 🧾 **OCR Receipt Scanning** – Automatically extract data from uploaded payment receipts
+- 💸 **Income & Expense Tracking** – Manually or automatically log financial records per day
+- 📊 **Spending Analytics** – Visualize and analyze financial behavior over time
+- 💬 **AI Assistant (Chatbot)** – Log transactions via chat, get spending summaries, and financial advice
+- 📈 **ETF & Stock Portfolio Tracking** – Record investment transactions and monitor real-time profit/loss
+- 🧠 **Smart Recommendations** – Get AI-suggested ways to adjust spending and investment habits
+
+---
+****
+## 🏗️ Tech Stack
+
+| Layer         | Technology                     |
+|---------------|--------------------------------|
+| Frontend      | [Next.js 15 (App Router)](https://nextjs.org) + TypeScript + Tailwind CSS + Shadcn UI + React Hook Form + React Query + Zustand |
+| Backend       | [NestJS](https://nestjs.com) + PostgreSQL + Prisma |
+| AI Integration| [OpenRouter API](https://openrouter.ai) (LLM + OCR) |
+| State Mgmt    | React Query, Zustand |
+| Storage       | AWS S3 (for receipt images) |
+| Auth          | Better Auth |
+| Monorepo Tool | Turborepo + pnpm |
+| Deployment    | Vercel (Frontend), Railway/AWS (Backend) |
+
+---
+
+## 📂 Project Structure
+
+
+
+
 # Turborepo starter
 
 This Turborepo starter is maintained by the Turborepo core team.
